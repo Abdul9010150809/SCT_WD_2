@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Stopwatch App</title>
+  <link rel="stylesheet" href="/home/rgukt/Documents/Laptop-data/CAREER/Skill craft intern/SCT_WD_2/style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>⏱️ Stopwatch</h1>
+    <div class="stopwatch">
+      <div id="display">00:00:00.000</div>
+      <div class="buttons">
+        <button id="start">Start</button>
+        <button id="pause">Pause</button>
+        <button id="reset">Reset</button>
+        <button id="lap">Lap</button>
+      </div>
+
+      <label class="theme-toggle">
+        <input type="checkbox" id="theme-toggle" />
+        Dark Mode
+      </label>
+
+      <ul id="laps"></ul>
+
+      <!-- Export CSV button will be added by JavaScript -->
+      <!-- CSV output display -->
+      <pre id="csv-output" style="margin-top: 20px; background: #f0f0f0; padding: 10px; border-radius: 8px;"></pre>
+    </div>
+  </div>
+
+  <script src="/home/rgukt/Documents/Laptop-data/CAREER/Skill craft intern/SCT_WD_2/script.js"></script>
+</body>
+</html>
