@@ -81,7 +81,7 @@ Example for your profile:
 ## 🖼️ Screenshots
  * ☀️ Light Mode -- img1.jpg
 
- * 🌙 Dark Mode  -- img1.jpg
+ * 🌙 Dark Mode  -- img2.jpg
 
 ## 📋 Sample CSV Output
 
