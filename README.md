@@ -30,17 +30,20 @@ This project helps users measure time intervals with precision. You can start, p
 ```
 
 	SCT_WD_2/
-	├── index.html           # Main HTML file
-	├── style.css            # CSS styles (themes, layout, effects)
-	├── script.js            # Core stopwatch logic with DOM interaction
-	├── README.md            # 📘 Project documentation
-	├── output.pdf           # 🖨️ Output snapshots in PDF format
-	├── images/              # 🖼️ UI screenshots for documentation
-	│   ├── img1.jpg         #bright mode
-	│   └── img2.jpg         #dark mode
+	|── .github/
+   	|	└── workflows/
+        |		└── deploy.yml     # 🚀 GitHub Actions deployment workflow
+	├── index.html           	   # Main HTML file
+	├── style.css            	   # CSS styles (themes, layout, effects)
+	├── script.js            	   # Core stopwatch logic with DOM interaction
+	├── README.md              	   # 📘 Project documentation
+	├── output.pdf                     # 🖨️ Output snapshots in PDF format
+	├── images/              	   # 🖼️ UI screenshots for documentation
+	│   ├── img1.jpg         	   #bright mode
+	│   └── img2.jpg         	   #dark mode
 	├── sounds/
-	│   └── beep.mp3
-
+	    └── beep.mp3
+	
 ```
 
 ## 🚀 Live Demo
