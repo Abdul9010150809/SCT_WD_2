@@ -112,10 +112,14 @@ themeToggle.addEventListener("change", () => {
 });
 
 // Beep sound
+const beepAudio = new Audio("/home/rgukt/Documents/Laptop-data/CAREER/Skill craft intern/SCT_WD_2/sounds/beep-01a.mp3");
+beepAudio.preload = "auto";
+
 function playBeep() {
-  const audio = new Audio("https://www.soundjay.com/buttons/sounds/beep-07.mp3");
-  audio.play();
+  beepAudio.currentTime = 0;
+  beepAudio.play().catch(err => console.warn("Audio play failed:", err));
 }
+
 
 // Add export button
 const exportBtn = document.createElement("button");
