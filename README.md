@@ -1,4 +1,5 @@
-# ⏱️ Stopwatch Web Application
+
+# Task 2 :- ⏱️ Stopwatch Web Application
 
 Welcome to the Stopwatch Web Application! This advanced-level, interactive stopwatch is built using HTML, CSS, and JavaScript—completely on the frontend with no backend or database involved. Developed as part of the Skill Craft Internship, this app offers lap tracking, CSV export, theme toggling, and persistent session features.
 
@@ -35,14 +36,16 @@ This project helps users measure time intervals with precision. You can start, p
 	├── README.md            # 📘 Project documentation
 	├── output.pdf           # 🖨️ Output snapshots in PDF format
 	├── images/              # 🖼️ UI screenshots for documentation
-	│   ├── light-mode.png
-	│   └── dark-mode.png
+	│   ├── img1.jpg         #bright mode
+	│   └── img2.jpg         #dark mode
+	├── sounds/
+	│   └── beep.mp3
 
 ```
 
 ## 🚀 Live Demo
 
-Once you push this to a public GitHub repository and enable GitHub Pages, your game will be live at:
+Once you push this to a public GitHub repository and enable GitHub Pages, your stop watch will be live at:
 
 ```
 https://<your-github-username>.github.io/<repository-name>/
@@ -79,6 +82,7 @@ Example for your profile:
  10. Switch between light/dark modes using the toggle
 
 ## 🖼️ Screenshots
+
  * ☀️ Light Mode -- img1.jpg
 
  * 🌙 Dark Mode  -- img2.jpg
